@@ -53,6 +53,6 @@ def login(conf):
 
 
 if __name__ == '__main__':
-    # 登录环境
+    # 登录环境（dev|test）
     info = login('dev')
     logger.info(info)
